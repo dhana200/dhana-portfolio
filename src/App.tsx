@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import Contact from "./components/contact";
 import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
 
@@ -32,6 +33,7 @@ function App() {
       <Experience />
       <Projects />
       <Footer />
+      <Contact />
     </>
   )
 }

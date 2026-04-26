@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import profile from "../assets/profile.jpg";
 import herobg from "../assets/hero-bg.jpg";
+import resume from "../assets/resume.pdf";
 
 function Hero() {
   return (
@@ -70,6 +71,14 @@ function Hero() {
           >
             Gmail
             </a>
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-900 hover:underline"
+          >
+            Resume
+          </a>
         </div>
 
       </div>
