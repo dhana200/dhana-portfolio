@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
+import profile from "../assets/profile.jpg";
+import herobg from "../assets/hero-bg.jpg";
 
 function Hero() {
   return (
    <section
             id="home"
             className="scroll-mt-24 min-h-[65vh] flex items-center justify-center px-6 pt-24 pb-4 bg-no-repeat bg-cover bg-center relative"
-            style={{ backgroundImage: "url('/hero-bg.jpg')"}}>
+            style={{ backgroundImage: `url('${herobg}')` }}>
 
       {/* Overlay */}
       <div className="bg-gradient-to-b from-black/60 to-black/30"></div>
@@ -21,7 +23,7 @@ function Hero() {
         
         {/* 👤 Passport Photo */}
         <img
-          src="/profile.jpg"
+          src={profile}
           alt="profile"
           className="w-75 h-75 rounded-full mx-auto mb-4 border-4 border-green-500 object-cover"
         />
