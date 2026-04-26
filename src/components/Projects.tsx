@@ -86,7 +86,7 @@ function Projects() {
           {/* Project Card */}
           <div className="p-6 border border-gray-200 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300">
             <h3 className="text-xl font-semibold mb-2">
-              Email Automtion
+              Email Automation
             </h3>
 
             <p className="text-gray-600 mb-4">
